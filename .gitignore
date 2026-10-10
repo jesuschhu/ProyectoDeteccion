@@ -1,0 +1,21 @@
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# This legacy integration note contains the original retired API key.
+CHECKLIST_INTEGRACION.md
+
+# Tooling and operating-system files
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,55 @@
+FICHA TECNICA DEL PROYECTO
+
+1. Nombre del proyecto
+Presenta: Explorador Gestual de la Cordillera Blanca
+
+2. Descripcion general
+Aplicacion de escritorio en Python que permite explorar puntos turisticos de la Cordillera Blanca usando una webcam y gestos de la mano.
+
+3. Objetivo
+Ofrecer una experiencia interactiva e intuitiva para visualizar informacion de destinos turisticos mediante deteccion de mano en tiempo real.
+
+4. Tecnologias utilizadas
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+- Pillow
+- qrcode
+
+5. Requisitos
+- Python 3.10 o superior
+- Webcam funcional
+- Conexiones de red solo para la primera descarga del modelo de MediaPipe, si no esta disponible localmente
+
+6. Funcionalidades principales
+- Deteccion de mano en tiempo real.
+- Puntero controlado por la punta del dedo indice.
+- Mapa ilustrado dentro de la interfaz.
+- Zonas interactivas para puntos y rutas.
+- Hover por permanencia para evitar activaciones accidentales.
+- Card de informacion con transicion visual.
+- Modo debug activable con la tecla D.
+
+7. Estructura del proyecto
+- app.py: aplicacion principal.
+- data/points.json: datos de puntos interactivos.
+- models/hand_landmarker.task: modelo local de deteccion de mano.
+- assets/images/: imagenes de la interfaz.
+- assets/fonts/: tipografias del proyecto.
+- assets/destinations/: recursos de destinos.
+
+8. Instalacion
+1. Crear y activar un entorno virtual.
+2. Instalar dependencias con:
+   pip install -r requirements.txt
+
+9. Ejecucion
+python app.py
+
+10. Controles
+- Tecla D: mostrar u ocultar la capa de debug.
+- Tecla Q o ESC: salir de la aplicacion.
+
+11. Observaciones
+En la primera ejecucion, la aplicacion puede descargar el modelo hand_landmarker.task automaticamente si no esta disponible en la carpeta models/.

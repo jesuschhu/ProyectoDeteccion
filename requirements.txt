@@ -1,0 +1,5 @@
+opencv-python>=4.9.0
+mediapipe>=0.10.14
+numpy>=1.26.0
+pillow>=10.4.0
+qrcode[pil]>=8.0
