@@ -101,7 +101,7 @@ python test_nasa.py
 
 ## 👤 Autoría
 
-Proyecto académico desarrollado por **Jesús Chuquihuanga**. Si lo usas o adaptas, una mención al proyecto será muy apreciada.
+Proyecto académico desarrollado por **Jesús Angel Chávez Huamán**. Si lo usas o adaptas, una mención al proyecto será muy apreciada.
 
 ---
 
